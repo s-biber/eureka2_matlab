@@ -1,0 +1,5 @@
+#!/bin/bash
+
+srun --partition=shared -N 1 --exclusive --time=00:20:00  --pty bash
+
+#Request 1 node on shared partition for 20 minutes with a bash terminal (automatically taken to node) 
