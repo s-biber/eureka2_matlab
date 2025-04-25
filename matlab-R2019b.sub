@@ -11,7 +11,7 @@
 
 cd $SLURM_SUBMIT_DIR
 
-module load matlab/R2023b
+module load matlab/2023b
 
 matlab -nosplash -nodesktop -nodisplay -r "run('main.m');exit"
 
